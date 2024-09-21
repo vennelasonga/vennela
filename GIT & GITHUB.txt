@@ -1,0 +1,47 @@
+ GIT & GITHUB
+•	RESPOSITORY   
+•	VERSION CONTROL SYSTEM
+•	STAGING AREA AND COMMIT
+REPOSITORY: It is a centralized location to store common data.it is available in public or private.
+VERSION CONTROL SYSTEM: It is  required to revert to previous version .Version control system shall be store to at remote system/server which is AIT.
+->Git will provide version control system.
+->Git installation.
+->Git download from the git.scm.com-windows-2.45.2-64 bit and click here to download.
+ 
+-> The categories of git are
+1.Git actual repository-remote repository.
+2.Local repository-which maintain in local.
+3.Staging area-Moving from local area to storage area.
+4.Working directory-where you are currently working.
+	All this things are manipulated by git
+	Select the one repository and get associated with git,
+	If there is a staging area one by one file is moved ,if the staging area is not there ‘w’ from working directory to local repository.
+	In staging area only one by one file is accessed.
+	Commit is useful to move from staging area to local repository.
+	Push is useful to move from local repository to remote repository.
+•	Create a directory
+•	Keep this directory associated with git
+•	Git init-will create staging area, local repository within directory
+•	Navigate your browser to git hub.com and create an account with email create repository.
+•	The repository give the static URL.
+•	This static URL uses to remote.
+•	Then the work flows will be done.
+1.	Make new folder->go to git hub ->the cd d:\ IIICSEC 
+
+2.	To get the directory associated with git-init->git hub.com(In browser).
+3.	Create account of git hub->New->Create repository name->public->create repository.
+4.	Copy the URL.
+5.	Paste on git Bash->Git status->nano. C filenames->Git status->Git add file name.
+	Git Add:
+	This command adds a file to the staging area.
+Syntax: Git add [file name]
+                Git add*
+	Git commit :
+This command records or snapshots the file permanently in the version history to local respository.
+         Syntax: git commit-m “[type in the commit msg]”
+	Git push:
+This command sends the committed changes of master branch to remote repository.
+          Syntax: git push -u origin master
+              
+
+                                                  
